@@ -10,7 +10,7 @@ function send_LINE($msg){
       // Make a POST Request to Messaging API to reply to sender
       $url = 'https://api.line.me/v2/bot/message/push';
       $data = [
-        'to' => 'U25b957160460cc73ee9487afc2dccad0',
+        'Userid' => 'U25b957160460cc73ee9487afc2dccad0',
         'messages' => [$messages],
       ];
       $post = json_encode($data);
