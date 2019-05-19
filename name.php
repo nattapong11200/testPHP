@@ -1,3 +1,4 @@
 <?php
-echo $Name;
+$Name = 'nuttapong salapthong' ; 
+echo  '$Name' ;
 ?>
