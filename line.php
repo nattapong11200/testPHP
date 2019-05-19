@@ -8,7 +8,7 @@ function send_LINE($msg){
         //'text' => $text
       ];
       // Make a POST Request to Messaging API to reply to sender
-      $url = 'https://api.line.me/v2/bot/message/push';
+      $url = 'https://biynki.herokuapp.com/bot.php';
       $data = [
         'Userid' => 'f66b2a9b507a09332a1c4c746a86c760',
         'messages' => [$messages],
