@@ -37,7 +37,7 @@
      
     curl_setopt($ch, CURLOPT_POSTFIELDS, $tmsg);
  
-    //curl_setopt($ch, CURLOPT_USERPWD, "mJ7K4MfteC7p0dW:pp4gzMhCvJIqlxc66hKEvk46m");
+    curl_setopt($ch, CURLOPT_USERPWD, "V1eGSru91d6KFNE:pm6JILiDimCg4nkGtYZENGkpQ");
      
     $response = curl_exec($ch);
     
@@ -45,7 +45,7 @@
       echo $response . "\r\n";
     return $response;
 }
-// $Topic = "NodeMCU1";
- //$lineMsg = "CHECK";
- //getMqttfromlineMsg($Topic,$lineMsg);
+ $Topic = "NodeMCU";
+ $lineMsg = "CHECK";
+ getMqttfromlineMsg($Topic,$lineMsg);
 ?>
